@@ -1,0 +1,35 @@
+.kotak-atas {
+    width: 100%;
+    height: 100px;
+    background-color: greenyellow;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+/* edit kotak kuning (anak pertama/kotak kiri) */
+.container .kotak:nth-child(1) {
+    background-color: yellow;
+    width: 20%;
+}
+
+/* edit kotak orange dan aqua (anak kedua/kotak kanan) */
+.container .kotak:nth-child(2) {
+    width: 79%;
+}
+
+.item-1 {
+    background-color: orange;
+}
+
+.item-2 {
+    background-color: aqua;
+}
+
+/* edit biar tinggi keempat kotaknya sama */
+.kotak {
+    height: 200px;
+}
