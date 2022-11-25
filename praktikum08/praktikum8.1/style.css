@@ -1,0 +1,30 @@
+/* Bagian Body */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Kotak Atas (logo & menu) */
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    padding: 10px 20px;
+}
+
+/* Menu */
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+/* Jarak Antara Link Menu */
+nav ul li {
+    margin: 0 10px;
+}
+
+/* Ukuran Gambar */
+img {
+    width: 60px;
+}
